@@ -739,4 +739,16 @@
         <encoding>UTF-8</encoding>
         <java-version>1.6</java-version>
     </properties>
+    <distributionManagement>
+       <repository>
+            <id>releases</id>
+            <!-- CHANGE HERE by your team nexus server -->
+            <url>http://13.58.163.170:8081/repository/SAMPLE-REL/</url>
+       </repository>
+       <snapshotRepository>
+            <id>snapshots</id>
+            <!-- CHANGE HERE by your team nexus server -->
+            <url>http://13.58.163.170:8081/repository/SAMPLE-SNAP/</url>
+       </snapshotRepository>
+    </distributionManagement>
 </project>
